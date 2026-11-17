@@ -1,0 +1,157 @@
+
+======================================================================
+TASK 1 - DATA PREPARATION
+======================================================================
+  ticket_id                                               ticket_description           category priority    status
+0      T001                 How do I download last month's attendance report             Report      Low  Resolved
+1      T002                                Report takes too long to generate        Performance   Medium    Closed
+2      T003                   Please add a second phone number to my account     Account Update   Medium    Closed
+3      T004                   I cannot login after changing my email address        Login Issue     High    Closed
+4      T005             need to change my mobile no. registered with account     Account Update      Low  Resolved
+5      T006                 I need to link my new bank account to my profile     Account Update      Low      Open
+6      T007           Getting 'access denied' even with the correct password        Login Issue     High    Closed
+7      T008                          Password reset link says it has expired        Login Issue     High    Closed
+8      T009                  Please help me generate my monthly sales report             Report      Low  Resolved
+9      T010  Data is not getting saved and a popup says something went wrong  Application Error   Medium    Closed
+
+Shape: (208, 5)
+
+Missing values per column:
+ ticket_id             0
+ticket_description    2
+category              0
+priority              3
+status                3
+dtype: int64
+
+Exact duplicate rows (ignoring ticket_id): 4
+Rows before cleaning            : 208
+Dropped (missing description)   : 2
+Dropped (duplicates)            : 6
+Rows after cleaning             : 200
+
+Dataset info after cleaning:
+<class 'pandas.DataFrame'>
+RangeIndex: 200 entries, 0 to 199
+Data columns (total 6 columns):
+ #   Column              Non-Null Count  Dtype
+---  ------              --------------  -----
+ 0   ticket_id           200 non-null    str  
+ 1   ticket_description  200 non-null    str  
+ 2   category            200 non-null    str  
+ 3   priority            200 non-null    str  
+ 4   status              200 non-null    str  
+ 5   clean_description   200 non-null    str  
+dtypes: str(6)
+memory usage: 9.5 KB
+
+Sample cleaned text:
+                                     ticket_description                                    clean_description
+0      How do I download last month's attendance report     how do i download last month s attendance report
+1                     Report takes too long to generate                    report takes too long to generate
+2        Please add a second phone number to my account       please add a second phone number to my account
+3        I cannot login after changing my email address       i cannot login after changing my email address
+4  need to change my mobile no. registered with account  need to change my mobile no registered with account
+
+======================================================================
+TASK 2 - EXPLORATORY DATA ANALYSIS
+======================================================================
+Total tickets: 200
+
+Tickets by category:
+category
+Performance          35
+Application Error    35
+Login Issue          33
+Billing Issue        33
+Report               32
+Account Update       32
+
+Tickets by priority:
+priority
+Medium     99
+High       65
+Low        33
+Unknown     3
+
+Tickets by status:
+status
+Closed         77
+Resolved       42
+Open           40
+In Progress    38
+Unknown         3
+
+Words per ticket:
+ count    200.0
+mean       8.7
+std        1.7
+min        5.0
+25%        8.0
+50%        8.0
+75%       10.0
+max       14.0
+
+Priority by category (counts):
+priority           High  Low  Medium  Unknown
+category                                     
+Account Update        0   17      13        2
+Application Error    24    0      11        0
+Billing Issue         7    0      25        1
+Login Issue          24    0       9        0
+Performance          10    0      25        0
+Report                0   16      16        0
+
+======================================================================
+TASK 3 & 4 - MODEL SELECTION, TRAINING AND TESTING
+======================================================================
+Train size: 160   Test size: 40
+
+5-fold cross-validation on the TRAINING set only (macro F1):
+  Naive Bayes          0.769 (+/- 0.108)
+  Linear SVM           0.795 (+/- 0.074)
+  Logistic Regression  0.802 (+/- 0.089)
+
+TEST RESULTS (Logistic Regression)
+Accuracy           : 0.950
+Precision (macro)  : 0.955   (weighted 0.957)
+Recall    (macro)  : 0.952   (weighted 0.950)
+F1 score  (macro)  : 0.950   (weighted 0.950)
+
+Per-class report:
+                   precision    recall  f1-score   support
+
+   Account Update       0.86      1.00      0.92         6
+Application Error       1.00      0.86      0.92         7
+    Billing Issue       0.88      1.00      0.93         7
+      Login Issue       1.00      0.86      0.92         7
+      Performance       1.00      1.00      1.00         7
+           Report       1.00      1.00      1.00         6
+
+         accuracy                           0.95        40
+        macro avg       0.96      0.95      0.95        40
+     weighted avg       0.96      0.95      0.95        40
+
+Confusion matrix (rows = actual, columns = predicted):
+                   Account Update  Application Error  Billing Issue  Login Issue  Performance  Report
+Account Update                  6                  0              0            0            0       0
+Application Error               0                  6              1            0            0       0
+Billing Issue                   0                  0              7            0            0       0
+Login Issue                     1                  0              0            6            0       0
+Performance                     0                  0              0            0            7       0
+Report                          0                  0              0            0            0       6
+
+Misclassified test tickets: 2
+                                                                     text            actual      predicted
+there is a bug the total amount is calculated wrong on the invoice screen Application Error  Billing Issue
+                      my account is locked after too many failed attempts       Login Issue Account Update
+
+Top 6 features per category (highest logistic-regression weights):
+  Account Update     my, account, change, update, update my, profile
+  Application Error  error, an, error while, page, message, an error
+  Billing Issue      payment, the payment, invoice, on my, charged, was
+  Login Issue        password, login, it, not, sign, reset
+  Performance        slow, time, takes, is, slowly, load
+  Report             report, report for, of, for, report of, for the
+
+Saved model to /home/claude/AI_Assignment_Anindya/model/ticket_classifier.joblib

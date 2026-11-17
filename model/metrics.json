@@ -1,0 +1,23 @@
+{
+  "n_train": 160,
+  "n_test": 40,
+  "accuracy": 0.95,
+  "precision_macro": 0.9553571428571429,
+  "recall_macro": 0.9523809523809524,
+  "f1_macro": 0.9504273504273505,
+  "cv_macro_f1": {
+    "Naive Bayes": {
+      "mean": 0.769044659044659,
+      "std": 0.10781053469336638
+    },
+    "Linear SVM": {
+      "mean": 0.794997224997225,
+      "std": 0.07385985907070702
+    },
+    "Logistic Regression": {
+      "mean": 0.8023054723054723,
+      "std": 0.0892104117086383
+    }
+  },
+  "n_misclassified": 2
+}

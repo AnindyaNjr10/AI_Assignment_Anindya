@@ -1,0 +1,14 @@
+Test input                                                       Expected           Predicted            Conf.  OK
+-------------------------------------------------------------------------------------------------------------------
+I forgot my password again and the reset mail is not coming      Login Issue        Login Issue          73.5%  Y
+The software crashed and showed an error when I pressed save     Application Error  Application Error    86.5%  Y
+Kindly send me last week's sales report                          Report             Report               76.5%  Y
+Please change the phone number linked with my profile            Account Update     Account Update       91.2%  Y
+Website is taking ages to open this afternoon                    Performance        Performance          73.5%  Y
+You have deducted money twice from my card                       Billing Issue      Billing Issue        53.7%  Y
+Cannot sign in, it keeps saying my credentials are wrong         Login Issue        Login Issue          85.1%  Y
+Need an Excel report of all customers who joined this year       Report             Report               81.3%  Y
+Please update the address on my account                          Account Update     Account Update       88.1%  Y
+Everything is lagging and the screen hangs frequently            Performance        Performance          62.4%  Y
+
+Correct: 10/10

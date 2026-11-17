@@ -1,0 +1,209 @@
+ticket_id,ticket_description,category,priority,status
+T001,How do I download last month's attendance report,Report,Low,Resolved
+T002,Report takes too long to generate,Performance,Medium,Closed
+T003,Please add a second phone number to my account,Account Update,Medium,Closed
+T004,I cannot login after changing my email address,Login Issue,High,Closed
+T005,need to change my mobile no. registered with account,Account Update,Low,Resolved
+T006,I need to link my new bank account to my profile,Account Update,Low,Open
+T007,Getting 'access denied' even with the correct password,Login Issue,High,Closed
+T008,Password reset link says it has expired,Login Issue,High,Closed
+T009,Please help me generate my monthly sales report,Report,Low,Resolved
+T010,Data is not getting saved and a popup says something went wrong,Application Error,Medium,Closed
+T011,  THE WEBSITE IS SLOW AND TIMES OUT FREQUENTLY!!  ,Performance,Medium,Closed
+T012,Please explain the extra charges on my statement,Billing Issue,Medium,Open
+T013,The application is very slow today,Performance,Medium,Open
+T014,  CAN I GET A PDF VERSION OF THE MONTHLY REPORT!!  ,Report,Low,Open
+T015,Why is the application taking so much time to respond,Performance,High,Closed
+T016,How do I change my credit card for billing,Billing Issue,Medium,Resolved
+T017,Getting a 404 page when I click on the dashboard link,Application Error,High,Closed
+T018,The system is lagging badly during peak hours,Performance,Medium,In Progress
+T019,Login error: your account is temporarily disabled,Login Issue,High,Resolved
+T020,"Unable to sign in, it says invalid username or password",Login Issue,High,Resolved
+T021,I was charged twice for the same subscription,Billing Issue,Medium,In Progress
+T022,,Login Issue,High,In Progress
+T023,"Uploaded attachments are not saving, it shows error code 403",Application Error,High,Closed
+T024,"  NEED MY ACCOUNT DETAILS EDITED, MY MOBILE NUMBER HAS CHANGED!!  ",Account Update,Low,Open
+T025,The invoice total does not match the quotation,Billing Issue,Medium,In Progress
+T026,Monthly billing report required for the finance team,Report,Medium,In Progress
+T027,app keeps crashing on startup,Application Error,High,In Progress
+T028,Want to edit my profile picture and bio,Account Update,Medium,Open
+T029,  I DID NOT RECEIVE THE OTP FOR LOGIN!!  ,Login Issue,Medium,Open
+T030,Error while updating my mobile number in the profile,Application Error,High,In Progress
+T031,The page shows a blank white screen after clicking submit,Application Error,Medium,Closed
+T032,Change the primary contact number for my account,Account Update,Low,Closed
+T033,Sign in button does nothing when I click it,Login Issue,High,Closed
+T034,Save button throws a server error,Application Error,Medium,
+T035,Delays and slowness observed in the evening,Performance,High,In Progress
+T036,The exported report is missing some rows,Report,Low,Closed
+T037,"Unable to create new record, system returns an error",Application Error,High,Closed
+T038,Slow response when I open the billing page,Performance,High,In Progress
+T039,The application is showing an error while saving data,Application Error,Medium,Open
+T040,I need my previous invoices as a single document,Billing Issue,Medium,Resolved
+T041,Need an invoice with our company details for tax purposes,Billing Issue,Medium,Open
+T042,  FATAL ERROR ON LOADING THE USER LIST PAGE!!  ,Application Error,High,Closed
+T043,Two factor authentication code is not working,Login Issue,High,In Progress
+T044,Timeout occurs when many users are online at the same time,Performance,Medium,Closed
+T045,Please send me the invoice for last month,Billing Issue,High,Open
+T046,Dropdown list is empty and console shows a javascript error,Application Error,High,In Progress
+T047,Please merge my two accounts into one,Account Update,Low,In Progress
+T048,Please deactivate my old email id and use the new one,Account Update,Low,In Progress
+T049,How to schedule the daily report to be emailed automatically,Report,Medium,In Progress
+T050,I want to delete my account permanently,Account Update,Medium,Resolved
+T051,I want to change my notification preferences,Account Update,Medium,In Progress
+T052,Help me to create the yearly report,Report,Low,Closed
+T053,Change the contact person for our company account,Account Update,Low,Closed
+T054,The portal speed has become really bad this week,Performance,High,Resolved
+T055,The app stopped working after the latest update,Application Error,Medium,Resolved
+T056,I forgot my password and cannot login,Login Issue,High,Closed
+T057,My refund has not been credited yet,Billing Issue,Medium,Open
+T058,The report page shows an error when I click download,Application Error,Medium,In Progress
+T059,Single sign on fails and redirects me back to the login screen,Login Issue,Medium,Resolved
+T060,Generate user activity report for the last 30 days,Report,Low,Open
+T061,"I moved to a new city, update my address in the system",Account Update,Medium,Open
+T062,I get a null pointer exception on the checkout screen,Application Error,High,Open
+T063,Heavy lag and slow loading of the home screen,Performance,Medium,Open
+T064,I upgraded my plan but the old price is still being charged,Billing Issue,Medium,Closed
+T065,"Everything is loading so slowly, I cannot work",Performance,Medium,Open
+T066,Need help to filter the report by date range,Report,Medium,Closed
+T067,Change the language setting of my profile to Hindi,Account Update,Medium,Resolved
+T068,Authentication failed while signing in to the dashboard,Login Issue,High,Resolved
+T069,Reset password option is not working,Login Issue,High,In Progress
+T070,Need to know the due date of my next payment,Billing Issue,Medium,Resolved
+T071,Video and images load very slowly inside the application,Performance,Medium,Resolved
+T072,  I HAVE NOT RECEIVED MY INVOICE FOR THIS QUARTER!!  ,Billing Issue,High,Closed
+T073,Need the quarterly revenue report for the finance team,Report,Low,Closed
+T074,Please create a dashboard report for management review,Report,Low,Closed
+T075,The payment failed but money has left my bank account,Billing Issue,High,Closed
+T076,Submit form gives internal server error,Application Error,Medium,Closed
+T077,"Update my date of birth, it was entered incorrectly",Account Update,Low,Closed
+T078,send me the sales report for october,Report,Low,Open
+T079,"Cannot save my profile, a red error banner appears",Application Error,High,Resolved
+T080,refund for double payment pls,Billing Issue,Medium,Open
+T081,Need a breakdown report of tickets by category,Report,Low,Resolved
+T082,Request to change my shipping address,Account Update,Low,Resolved
+T083,Please update the company name on our account,Account Update,Low,Closed
+T084,App is running slowly since the last release,Performance,Medium,Open
+T085,Application hangs for a long time on large files,Performance,High,Closed
+T086,Getting error 500 when I submit the form,Application Error,High,Closed
+T087,My login worked yesterday but today it says user not found,Login Issue,High,Resolved
+T088,Mobile app is sluggish and takes ages to open,Performance,Medium,Closed
+T089,How can I change the email id linked to my account,Account Update,Medium,Resolved
+T090,"Please correct the invoice, the plan name is wrong",Billing Issue,Medium,Resolved
+T091,The application is showing a strange error message while saving,Application Error,High,Open
+T092,Where can I find the profit and loss statement report,Report,Low,Closed
+T093,Transactions are processing slowly and users are waiting,Performance,High,Open
+T094,Need to change my account username,Account Update,Medium,Resolved
+T095,The application takes too long to load after login,Performance,High,Closed
+T096,Report shows wrong totals compared to the dashboard,Report,Medium,Resolved
+T097,Cannot login using Google sign in option,Login Issue,High,Closed
+T098,Request a refund because the service was unavailable for two days,Billing Issue,Medium,Closed
+T099,Add another user to our team account,Account Update,Medium,In Progress
+T100,"There is a bug, the total amount is calculated wrong on the invoice screen",Application Error,High,Open
+T101,Payment was deducted but the order shows as unpaid,Billing Issue,Medium,In Progress
+T102,My account is locked after too many failed attempts,Login Issue,High,Open
+T103,"Need help logging in, the password reset page gives a blank screen",Login Issue,High,Closed
+T104,Payment gateway shows success but subscription is not active,Billing Issue,Medium,Closed
+T105,How do I update my billing address,Account Update,Low,In Progress
+T106,"Want to change the name on my profile, there is a spelling mistake",Account Update,Medium,
+T107,Dashboard takes more than a minute to open,Performance,Medium,Open
+T108,I would like to update my personal details,Account Update,Low,Open
+T109,Password changed but now the app gives an error at login,Login Issue,Medium,Closed
+T110,High response time while saving records,Performance,Medium,Open
+T111,Navigation between pages is slow,Performance,Medium,Resolved
+T112,Please correct my surname in the account records,Account Update,Medium,Closed
+T113,App crashes every time I open the settings page,Application Error,High,Closed
+T114,Search feature throws an exception and returns nothing,Application Error,High,Closed
+T115,Discount coupon was not applied to my invoice,Billing Issue,High,Open
+T116,It takes forever to open the customer page,Performance,Medium,Closed
+T117,System is very laggy while typing in the notes field,Performance,Medium,Closed
+T118,Search results are extremely slow,Performance,Medium,Open
+T119,Please update my profile information with the new address,Account Update,,Resolved
+T120,Account suspended message appears when I try to log in,Login Issue,High,Resolved
+T121,The report template needs to include the company logo,Report,Medium,Closed
+T122,Looking for an expense summary report for the last quarter,Report,Low,Closed
+T123,I am logged out automatically every few minutes,Login Issue,High,In Progress
+T124,Requesting a data extract of all invoices raised in September,Report,Low,Closed
+T125,I want to cancel my subscription and get a refund,Billing Issue,Medium,Closed
+T126,Update my designation and department in the profile,Account Update,Low,Closed
+T127,Compare this quarter's report with the previous quarter,Report,Medium,Closed
+T128,Can you add a new column to the weekly summary report,Report,Medium,Open
+T129,Application displays 'database connection failed' message,Application Error,High,Open
+T130,Request to generate delivery status report for all branches,Report,Medium,Closed
+T131,Need sales figures in a report format for the board meeting,Report,Low,In Progress
+T132,File upload fails with an unknown error,Application Error,High,Closed
+T133,Please provide a summary report of website visits,Report,Low,Closed
+T134,Update GST number on our account details,Account Update,Low,Closed
+T135,Need a copy of the payment receipt,Billing Issue,High,Closed
+T136,"  APPLICATION NOT RESPONDING FOR LONG PERIODS, THEN RECOVERS!!  ",Performance,Medium,Open
+T137,Locked out of the application since this morning,Login Issue,High,Closed
+T138,Unrecognised charge on my card from your company,Billing Issue,Medium,Resolved
+T139,Page load time is more than 30 seconds,Performance,Medium,Resolved
+T140,Request for inventory stock report as of yesterday,Report,Medium,Open
+T141,Something went wrong message is displayed on every action,Application Error,High,Closed
+T142,Uploading is taking a very long time even for small files,Performance,High,Resolved
+T143,"New password is rejected, says it was used before",Login Issue,High,Open
+T144,Delete option gives an error and the entry stays there,Application Error,High,Resolved
+T145,Can you generate a report for customer complaints in the last six months,Report,Medium,Closed
+T146,I need the customer list exported as an excel report,Report,Medium,Closed
+T147,Very long loading time when I click on any menu,Performance,Medium,Resolved
+T148,Captcha on the login page never loads so I cannot sign in,Login Issue,Medium,Open
+T149,I need to change my registered mobile number,Account Update,Low,Resolved
+T150,Not able to authenticate with my company email,Login Issue,High,Closed
+T151,Screen freezes for several seconds before responding,Performance,High,In Progress
+T152,"Kindly modify my registered email, the old one is not in use",Account Update,Low,Resolved
+T153,"Forgot username, how do I recover it",Login Issue,Medium,Closed
+T154,I want a report of all closed tickets this week,Report,Medium,In Progress
+T155,  BILLING CYCLE DATE NEEDS TO BE CHANGED!!  ,Billing Issue,Medium,Closed
+T156,Need a report on employee leave balances,Report,Medium,Closed
+T157,,Report,Medium,Open
+T158,Verification code for sign in never reaches my email,Login Issue,Medium,Closed
+T159,Please update my email address on the account,Account Update,Medium,Closed
+T160,Overcharged for additional users on the team plan,Billing Issue,Medium,In Progress
+T161,Login page is very slow to load,Performance,Medium,In Progress
+T162,Report format needs to be changed to landscape,Report,Medium,Closed
+T163,Please apply my credit balance to the next bill,Billing Issue,Medium,Closed
+T164,Error message: failed to update record,Application Error,High,In Progress
+T165,I was billed after I cancelled my plan,Billing Issue,Medium,In Progress
+T166,I would like to receive the weekly analytics report every Monday,Report,Medium,Closed
+T167,How can I pay my pending dues by bank transfer,Billing Issue,Medium,Resolved
+T168,Application freezes and then closes by itself,Application Error,High,In Progress
+T169,Password reset email is not arriving,Login Issue,Medium,Open
+T170,Need a custom report showing orders by region,Report,Medium,Closed
+T171,Opening any record takes too much time,Performance,High,In Progress
+T172,Please transfer the account ownership to my colleague,Account Update,Medium,Resolved
+T173,Mobile app closes unexpectedly when I tap on notifications,Application Error,Medium,Closed
+T174,  NEED TO CHANGE THE ACCOUNT TYPE FROM BASIC TO PREMIUM!!  ,Account Update,,In Progress
+T175,Please waive the late payment fee,Billing Issue,,Closed
+T176,Wrong GST amount was charged on my invoice,Billing Issue,Medium,In Progress
+T177,Error while exporting the file: operation could not be completed,Application Error,Medium,
+T178,app is super slow plz fix,Performance,Medium,Open
+T179,Need to update the card details because the payment keeps failing,Billing Issue,High,Resolved
+T180,Our team is facing slow response from the application since morning,Performance,Medium,Resolved
+T181,Pages are taking too long to load,Performance,Medium,Open
+T182,The update button is not working and an error is thrown,Application Error,High,Closed
+T183,  THE SYSTEM THROWS AN ERROR WHENEVER I TRY TO ATTACH A DOCUMENT!!  ,Application Error,High,Closed
+T184,"Unable to access my account, password not accepted",Login Issue,High,Open
+T185,Cannot log into the portal from my phone,Login Issue,High,Closed
+T186,Login page keeps refreshing without letting me in,Login Issue,High,Resolved
+T187,Remove my previous phone number from the profile,Account Update,Low,In Progress
+T188,"The software is too slow for daily usage, kindly improve speed",Performance,Medium,Resolved
+T189,I keep getting a wrong credentials error although I typed it correctly,Login Issue,High,In Progress
+T190,System performance has degraded in the last two days,Performance,Medium,In Progress
+T191,"Invoice report is not downloading, error appears",Application Error,High,Closed
+T192,Auto renewal charged me without any notice,Billing Issue,Medium,Open
+T193,"  HOW CAN I UNLOCK MY USER ACCOUNT, I ENTERED THE WRONG PASSWORD THRICE!!  ",Login Issue,High,In Progress
+T194,Charged for premium plan though I am on the basic plan,Billing Issue,Medium,Closed
+T195,"Unexpected error occurred, please contact administrator",Application Error,Medium,Resolved
+T196,Form validation error appears even though all fields are filled,Application Error,High,Open
+T197,"Application error while processing payment page, transaction failed with exception",Application Error,Medium,Closed
+T198,Please share the annual performance report of the sales team,Report,Low,In Progress
+T199,Kindly share the payment history for this year,Billing Issue,Medium,In Progress
+T200,The OTP code is wrong every time I enter it,Login Issue,Medium,Resolved
+T201,Session expired message shows up immediately after login,Login Issue,Medium,Resolved
+T202,The amount on my bill is higher than expected,Billing Issue,High,In Progress
+T203,"Application error while processing payment page, transaction failed with exception",Application Error,Medium,Closed
+T204,Report shows wrong totals compared to the dashboard,Report,Medium,Resolved
+T205,Need to change the account type from basic to premium,Account Update,Low,In Progress
+T206,  REQUESTING A DATA EXTRACT OF ALL INVOICES RAISED IN SEPTEMBER!!  ,Report,Low,Closed
+T207,The application is showing an error while saving data,Application Error,Medium,Open
+T208,The application takes too long to load after login,Performance,High,Closed
